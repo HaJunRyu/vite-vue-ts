@@ -8,7 +8,9 @@ export default defineConfig({
   resolve: {
     extensions: ['.ts'],
     alias: {
+      src: path.join(__dirname, 'src'),
       components: path.join(__dirname, 'src', 'components'),
+      pages: path.join(__dirname, 'src', 'pages'),
     },
   },
 });
