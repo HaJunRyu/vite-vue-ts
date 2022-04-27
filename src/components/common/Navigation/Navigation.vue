@@ -1,10 +1,11 @@
 <template>
-  <nav>
+  <nav class="nav">
     <router-link to="/">Home</router-link> | <router-link to="/about">About</router-link> |
     <router-link to="/todo">Todo</router-link>
   </nav>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+</script>
 
-<style scoped lang="scss"></style>
+<style src="./navigation.scss" lang="scss" scoped />
