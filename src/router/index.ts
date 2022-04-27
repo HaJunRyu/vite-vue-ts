@@ -12,6 +12,11 @@ const routes: RouteRecordRaw[] = [
     name: 'about',
     component: () => import('pages/About.vue'),
   },
+  {
+    path: '/todo',
+    name: 'todo',
+    component: () => import('pages/Todo.vue'),
+  },
 ];
 
 const router = createRouter({

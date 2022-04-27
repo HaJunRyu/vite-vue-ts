@@ -1,5 +1,7 @@
 <template>
-  <main><slot></slot></main>
+  <main>
+    <router-view />
+  </main>
 </template>
 
 <script setup lang="ts"></script>
