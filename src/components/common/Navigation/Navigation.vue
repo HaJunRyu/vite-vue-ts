@@ -5,7 +5,6 @@
   </nav>
 </template>
 
-<script setup lang="ts">
-</script>
+<script setup lang="ts"></script>
 
 <style src="./navigation.scss" lang="scss" scoped />
